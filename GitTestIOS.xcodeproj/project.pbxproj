@@ -14,6 +14,7 @@
 		253CF0461B3D69C500BF0454 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253CF0451B3D69C500BF0454 /* Images.xcassets */; };
 		253CF0491B3D69C500BF0454 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 253CF0471B3D69C500BF0454 /* LaunchScreen.xib */; };
 		253CF0551B3D69C500BF0454 /* GitTestIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CF0541B3D69C500BF0454 /* GitTestIOSTests.m */; };
+		253CF05F1B3D994200BF0454 /* CCgitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253CF05E1B3D994200BF0454 /* CCgitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		253CF04E1B3D69C500BF0454 /* GitTestIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		253CF0531B3D69C500BF0454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		253CF0541B3D69C500BF0454 /* GitTestIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestIOSTests.m; sourceTree = "<group>"; };
+		253CF05E1B3D994200BF0454 /* CCgitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCgitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				253CF03C1B3D69C400BF0454 /* AppDelegate.h */,
+				253CF05E1B3D994200BF0454 /* CCgitViewController.m */,
 				253CF03D1B3D69C400BF0454 /* AppDelegate.m */,
 				253CF03F1B3D69C400BF0454 /* ViewController.h */,
 				253CF0401B3D69C400BF0454 /* ViewController.m */,
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				253CF0411B3D69C400BF0454 /* ViewController.m in Sources */,
+				253CF05F1B3D994200BF0454 /* CCgitViewController.m in Sources */,
 				253CF03E1B3D69C400BF0454 /* AppDelegate.m in Sources */,
 				253CF03B1B3D69C400BF0454 /* main.m in Sources */,
 			);
